@@ -17,11 +17,12 @@
             <img src="" alt="">
             <div class="caption">
                 <h3>@Html.DisplayFor(modelItem => item.Title)</h3>
-                <p>@Html.DisplayNameFor(model => model.Rating):@Html.DisplayFor(modelItem => item.Rating)</p>
+                <p>@Html.DisplayNameFor(model => model.Rating): @Html.DisplayFor(modelItem => item.Rating)<span class="glyphicon glyphicon-star" aria-hidden="true"></span> </p>  
                 <p>@Html.DisplayFor(modelItem => item.Category.Name)</p>
                 <p>@Html.ActionLink("Details", "Details", new { id = item.ID }, new { @class = "btn btn-primary", role = "button"})  @Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" })  @Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" })</p>
                 @*<p>@Html.ActionLink("Edit", "Edit", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" }):@Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" })</p>*@     
                 @*<p>@Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-primary", role = "button" })</p>*@                     
+                
             </div>
         </div>
     </div>
