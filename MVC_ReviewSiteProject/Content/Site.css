@@ -70,3 +70,23 @@ div.jumbotron p.lead{
     font-family: 'Exo 2', sans-serif;
     font-size:14px;
 }*/
+
+div.container.body-content div.row div.col-sm-6.col-md-4 div.thumbnail{
+    background-color:lightgray;
+    border-color:#FFFFFF;
+}
+
+div.container.body-content a.collapsed {
+        font-family: "Glyphicons Halflings";
+    content: "\e114";
+}
+/* Icon when the collapsible content is shown */
+.btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+}
+
+/* Icon when the collapsible content is hidden */
+.btn.collapsed:after {
+    content: "\e080";
+}
