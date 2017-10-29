@@ -72,8 +72,8 @@ div.jumbotron p.lead{
 }*/
 
 div.container.body-content div.row div.col-sm-6.col-md-4 div.thumbnail{
-    background-color:lightgray;
-    border-color:#FFFFFF;
+    background-color:white;
+    /*border-color:#FFFFFF;*/
 }
 
 div.container.body-content a.collapsed {
@@ -89,4 +89,25 @@ div.container.body-content a.collapsed {
 /* Icon when the collapsible content is hidden */
 .btn.collapsed:after {
     content: "\e080";
+}
+
+div.thumbnail{
+    background-color:white;
+}
+
+div.container.body-content div h4{
+    font-family: 'Russo One', sans-serif;
+}
+
+div.container.body-content div dl.dl-horizontal{
+    font-family: 'Exo 2', sans-serif;
+    font-size:15px;
+}
+div div.row div.col-sm-6.col-md-4 div.thumbnail div.caption h2{
+    text-decoration:underline;
+    
+}
+
+.detailsBackground {
+    background-image: url('Images/honeycomb-pattern-abstract-hd-wallpaper-1920x1080-5295.jpg');
 }
